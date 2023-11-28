@@ -11,3 +11,8 @@ Demo code for [log wrapper article](https://github.com/kirkiano/portfolio/blob/m
 ## Execution
 
 `make run`
+
+## Documentation
+
+`make doc`, then point your browser to
+`target/doc/log_wrapper/index.html`.

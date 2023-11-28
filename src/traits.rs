@@ -8,6 +8,7 @@ pub trait F {
 }
 
 
+/// This is where the magic happens
 impl<T: F> F for Logging<T> {
     fn f(&self) -> i32 {
         trace!("About to run F.f()");

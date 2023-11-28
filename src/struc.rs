@@ -2,6 +2,8 @@
 use crate::traits::F;
 
 
+/// Some struct that implements [`F`] below.
+#[derive(Debug, Clone)]
 pub struct C;
 
 

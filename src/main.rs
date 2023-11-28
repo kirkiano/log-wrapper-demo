@@ -11,7 +11,8 @@ use crate::{struc::C,
 
 fn main() {
     env_logger::init();
+
     let c = C;
-    let c = Logging::new(c);
+    let c = Logging::new(c); // wrap it!
     some_function(&c);
 }
